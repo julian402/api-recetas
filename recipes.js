@@ -1,5 +1,5 @@
-export default [
-  {
+ let recipes = [
+  { id: 1,
     title: "Guacamole",
     description:
       "Guacamole is a classic Mexican recipe, perfect as an appetizer or side dish. Made with ripe avocados, tomato, onion, and cilantro, it's a delicious and healthy option for any occasion.",
@@ -30,7 +30,7 @@ export default [
       fat: "11g",
     },
   },
-  {
+  { id:2,
     title: "Spaghetti Carbonara",
     description:
       "Spaghetti Carbonara is a classic Italian pasta dish made with eggs, cheese, pancetta, and pepper. It's creamy, savory, and easy to make.",
@@ -61,7 +61,7 @@ export default [
       fat: "20g",
     },
   },
-  {
+  { id:3,
     title: "Chicken Caesar Salad",
     description:
       "A Chicken Caesar Salad combines fresh greens with grilled chicken, croutons, and Caesar dressing for a satisfying and nutritious meal.",
@@ -91,7 +91,7 @@ export default [
       fat: "15g",
     },
   },
-  {
+  { id:4,
     title: "Vegetable Stir-Fry",
     description:
       "Vegetable Stir-Fry is a quick and healthy dish featuring a variety of colorful vegetables sautéed in a savory sauce.",
@@ -124,7 +124,7 @@ export default [
       fat: "10g",
     },
   },
-  {
+  { id: 5,
     title: "Chocolate Chip Cookies",
     description:
       "Chocolate Chip Cookies are a beloved classic dessert with a soft and chewy texture, loaded with chocolate chips.",
@@ -161,3 +161,5 @@ export default [
     },
   },
 ];
+
+export default recipes

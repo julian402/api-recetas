@@ -1,16 +1,13 @@
-import recipes from "./recipes";
 import express from "express";
+import router from "./routes/route.js";
 
 const app = express();
 
 app.use(express.json());
-app.use(pruebaMiddleware);
 
-app.use(productRoute);
 
-app.get("/", (req, res) => {
-  return res.json(recipes);
-});
+app.use(router);
+
 
 // Ruta si no encuentra ninguna ruta
 
