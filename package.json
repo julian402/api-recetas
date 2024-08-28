@@ -11,6 +11,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.19.2"
-  },"type":"module"
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0"
+  },
+  "type": "module"
 }
